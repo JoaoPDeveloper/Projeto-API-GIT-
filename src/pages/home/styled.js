@@ -5,7 +5,7 @@ export const ErrorMsg = styled.span`
   font-size: 0.65rem;
   color: red;
   font-weight: 600;
-  margin-top: 5rem;
+  margin-top: rem;
   margin-left: -13rem;
 `;
 export const HomeContainer = styled.div`
