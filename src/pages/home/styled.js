@@ -1,5 +1,13 @@
 import styled from 'styled-components';
 
+export const ErrorMsg = styled.span`
+  display: block;
+  font-size: 0.65rem;
+  color: red;
+  font-weight: 600;
+  margin-top: 5rem;
+  margin-left: -13rem;
+`;
 export const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -42,11 +50,3 @@ export const Button = styled.button`
     box-shadow: none;
   }
 `;
-
-export const ErrorMsg = styled.span`
-  display: block;
-  font-size: 0.65rem;
-  color: red;
-  font-weight: 600;
-  margin-top: 1rem;
-`
