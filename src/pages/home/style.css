@@ -1,0 +1,7 @@
+botao{
+    display: flex;
+    padding: 20px;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
