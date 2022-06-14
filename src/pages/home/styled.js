@@ -31,7 +31,7 @@ export const ErrorMsg = styled.span`
   `;
   export const Input = styled.input`
   width: 25vw;
-  padding: 20px 25px;
+  padding: 17px 25px;
   border-radius: 5px 5px 5px 5px;
   color: black;
   font-style: inherit;
@@ -59,4 +59,5 @@ font-family: 'Source Sans Pro', sans-serif;
 font-style: italic;
 font-size:18px;
 `;
+
 
