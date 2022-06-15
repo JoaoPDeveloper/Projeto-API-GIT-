@@ -36,7 +36,7 @@ export const ErrorMsg = styled.span`
   color: black;
   font-style: inherit;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
+  font-size: 23px;
   text-align: center;
 }
 `;
