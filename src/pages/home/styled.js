@@ -1,8 +1,9 @@
 import { hover } from '@testing-library/user-event/dist/hover';
 import styled from 'styled-components';
+import { Title } from '../home/styled';
 
 export const ErrorMsg = styled.span`
-  display: block;
+  display: flex;
   font-size: 20px;
   color: red;
   text-align: center;
@@ -43,16 +44,13 @@ export const ErrorMsg = styled.span`
 export const Button = styled.button`
 width: 15vw;
 height:7vh;
+display:block;
 padding: 20px 25px;
 text-align: center;
 align-items:between;
-background: linear-gradient(to right, #4812dd 50%, #79f017 50%);
-background-size: 200% 100%;
-background-position: right bottom;
+background:#79f017 50%;
 color: #464646;
-font-weight: 0;
 cursor: pointer;
-transition: all 300ms ease-out;
 border-radius: 5px 5px 5px 5px;
 margin-left: -10px;
 font-family: 'Source Sans Pro', sans-serif;

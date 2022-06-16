@@ -21,7 +21,7 @@ export default function repositories(){
 
     return (
         <S.Container>
-            <S.Title> Repositorios</S.Title>
+            <S.Title> Repositórios</S.Title>
             <S.List>
                  {repositories.map((repository, index) => <S.ListItem key={index}>{repository}</S.ListItem>)}
             </S.List>
